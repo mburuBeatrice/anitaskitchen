@@ -4,3 +4,46 @@
   color: #FFFFFF;
   text-align: center;
 }
+.happyhour{
+  height: 105px;
+  width: 350px;
+  background-color: #e0e0d1;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.partytime{
+  height: 105px;
+  width: 350px;
+  background-color: #ff3300;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.Breakfast{
+  height: 210px;
+  width: 350px;
+  background: url('../ip2/assets/foodtop/breakfast.jpg') no-repeat;
+  justify-content: center;
+  display: flex;
+  color: #FFFFFF;
+  align-items: center;
+}
+.Lunch{
+  height: 210px;
+  width: 350px;
+  background: url('../ip2/assets/foodtop/lunch.jpg') no-repeat;
+  justify-content: center;
+  display: flex;
+  color: #FFFFFF;
+  align-items: center;
+}
+.Dinner{
+  height: 210px;
+  width: 350px;
+  background: url('../ip2/assets/foodtop/dinner.jpg') no-repeat;
+  justify-content: center;
+  display: flex;
+  color: #FFFFFF;
+  align-items: center;
+}
