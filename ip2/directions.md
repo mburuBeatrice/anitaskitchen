@@ -13,7 +13,7 @@
 
 
 ### REQUIRED
- -  **Create a Hover effect** for the **breakfast, lunch and dinner ** sections such that on hover they are covered by a layer of white as shown by the lunch section and their fonts are turned to black from white.
+ -  **Create a Hover effect**  for the **breakfast, lunch and dinner ** sections such that on hover they are covered by a layer of white as shown by the lunch section and their fonts are turned to black from white.
  - The Hamburger menu represented by the 3 horizontal lines when clicked should open a full screen menu that has the following menu items:
        a. contacts
        b. events
