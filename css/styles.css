@@ -108,7 +108,7 @@ body {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #F15A29;
+    background-color:#F15A29;
     overflow-y: hidden;
     transition: 0.5s;
 }
@@ -128,7 +128,7 @@ body {
     transition: 0.3s;
 }
 .overlay a:hover, .overlay a:focus {
-    color: #f1f1f1;
+    color: #black;
 }
 .overlay .closebtn {
     position: absolute;
