@@ -7,6 +7,10 @@
 #main-menu {
 width: cover;
 }
+.moringa{
+
+  margin-top: -9px;
+}
 .happyhour{
   height: 105px;
   width: 350px;
@@ -23,32 +27,58 @@ width: cover;
   display: flex;
   align-items: center;
 }
+
 .Breakfast{
   height: 210px;
   width: 350px;
-  background: url('../ip2/assets/foodtop/breakfast.jpg') no-repeat;
   justify-content: center;
   display: flex;
   color: #FFFFFF;
   align-items: center;
+}
+.Breakfast:hover{
+bottom: 0;
+right:0;
+background:rgba(250,250,250,0.5);
+opacity:0.5;
+overflow: hidden;
+transition: .5s ease;
+}
+.Breakfast p:hover{
+  color: #000000;
 }
 .Lunch{
   height: 210px;
   width: 350px;
-  background: url('../ip2/assets/foodtop/lunch.jpg') no-repeat;
   justify-content: center;
   display: flex;
   color: #FFFFFF;
   align-items: center;
 }
+.Lunch:hover{
+bottom: 0;
+right:0;
+background:rgba(250,250,250,0.5);
+opacity:0.5;
+overflow: hidden;
+transition: .5s ease;
+}
 .Dinner{
   height: 210px;
   width: 350px;
-  background: url('../ip2/assets/foodtop/dinner.jpg') no-repeat;
   justify-content: center;
   display: flex;
   color: #FFFFFF;
   align-items: center;
+
+}
+.Dinner:hover{
+bottom: 0;
+right:0;
+background:rgba(250,250,250,0.5);
+opacity:0.5;
+overflow: hidden;
+transition: .5s ease;
 }
 #image{
    margin: 100px;
@@ -74,6 +104,7 @@ width: cover;
 }
 #image5{
  margin: 100px;
+ background-color: white;
  border-radius: 4px;
  padding: 5px;
  padding-right: 0px;
@@ -83,7 +114,6 @@ width: cover;
  width: 395px;
 }
 #button1 {
-   background-color: white;
    color: #F15A29;
    border: 2px solid #F15A29;
    padding: 10px;
