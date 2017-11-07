@@ -338,3 +338,12 @@ ul#listtags{
 ul#listtags>li{
   display: inline;
 }
+.glyphicon{
+  color: #F15A29;
+}
+#happy{
+    color: #F15A29;
+}
+#aboutmenu{
+      color: #F15A29;
+}

@@ -1,8 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-
+  <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
@@ -21,7 +23,7 @@
         <a href="#">events</a>
         <a href="#">menu</a>
       </div>
-      <!-- <img src="ip2/assets/logoBig.png" alt=""> -->
+
     </div>
     <span style="font-size:30px;cursor:pointer; color:white;" onclick="openNav()" id=myNav1>&#9776;</span>
     <div class="first">
@@ -40,7 +42,7 @@
             <p>party time</p>
           </div>
         </div>
-        <div class="col-md-3"  style="background-image:url(ip2/assets/foodtop/breakfast.jpg)" 
+        <div class="col-md-3"  style="background-image:url(ip2/assets/foodtop/breakfast.jpg)"
          id="breakfast">
           <div class="Breakfast">
             <p>Breakfast</p>
@@ -53,7 +55,7 @@
           </div>
 
         </div>
-        <div class="col-md-3"  style="background-image:url(ip2/assets/foodtop/dinner.jpg)" 
+        <div class="col-md-3"  style="background-image:url(ip2/assets/foodtop/dinner.jpg)"
         id="dinner">
           <div class="Dinner">
             <p>Dinner</p>
@@ -148,17 +150,21 @@
     <div class="row" id="customers">
       <div class="row" style="text-align:center;">
         <div class="col-md-8">
-          <h1>The customer name</h1>
-          <strong>his name</strong>
+          <h1 id="happy">  Our Happy Customers</h1>
+          <h3>George Richard</h3>
+              <p>Great food! Menu is awesome,their foods are not only great <br>but also in the right price. I'll highly recommend them :)
+              </p>
           <ul id="listtags">
+            <span class="glyphicon glyphicon-menu-left arrow"></span>
             <li><img src="ip2/assets/customers/p1.png" alt=""></li>
             <li><img src="ip2/assets/customers/p2.png" alt=""></li>
             <li><img src="ip2/assets/customers/p3.png" alt=""></li>
+            <span class="glyphicon glyphicon-menu-right arrow"></span>
           </ul>
 
         </div>
         <div class="col-md-4" style="border-left: 3px solid #c3c0c3;">
-          <h1>About Us</h1>
+          <h1 id="aboutmenu">About Menu</h1>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
              labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
@@ -192,8 +198,7 @@
          <p id="copyright">2016 Menu Restuarant</p>
        </div>
      </div>
-<!--
-  <link href="js/jquery-3.2.1.js" rel="script" type="text/js"> -->
+
   <script
   src="https://code.jquery.com/jquery-3.2.1.min.js"
   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="

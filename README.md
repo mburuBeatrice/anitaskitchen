@@ -12,13 +12,13 @@ I created a landing page using a given layout for a restaurant.The restaurant is
 
 ### Setup/Installation Requirements
 To pull the application and perform changes, kindly perform...
-On GitHub, navigate to the main page of the repository.
-Under the repository name, click Clone or download.
-In the Clone with HTTPs section, click to copy the clone URL for the repository.
-Open Terminal.
-Change the current working directory to the location where you want the cloned directory to be made.
-Type git clone, and then paste the URL you copied in Step 2.
-Press Enter. Your local clone will be created.
+1.On GitHub, navigate to the main page of the repository.
+2.Under the repository name, click Clone or download.
+3.In the Clone with HTTPs section, click to copy the clone URL for the repository.
+4.Open Terminal.
+5.Change the current working directory to the location where you want the cloned directory to be made.
+6.Type git clone, and then paste the URL you copied in Step 2.
+7.Press Enter. Your local clone will be created.
 
 #### Support and contact details
 For any inquiries on the project reach me at [GitHub](https://github.com/mburuBeatrice.com)
