@@ -13,7 +13,7 @@ width: cover;
 }
 .happyhour{
   height: 105px;
-/*  width: 350px;*/
+ width: 350px;
   background-color: #e0e0d1;
   justify-content: center;
   display: flex;
@@ -21,13 +21,18 @@ width: cover;
 }
 .partytime{
   height: 105px;
-  /*width: 350px;*/
+  width: 350px;
   background-color: #ff3300;
   justify-content: center;
   display: flex;
   align-items: center;
 }
-
+.footer-positioning{
+  margin-right: 30%;
+}
+.icon-pos {
+  margin-left: 42%;
+}
 .Breakfast{
   height: 210px;
   /*width: 350px;*/
